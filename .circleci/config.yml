@@ -24,7 +24,7 @@ jobs:
       - attach_workspace:
           at: ~/
       - run: cat ~/output.txt
-          - print_pipeline_id
+      - print_pipeline_id
 workflows:
   # Name the workflow "welcome"
   output_file:
