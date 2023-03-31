@@ -13,7 +13,7 @@ jobs:
 
 workflows:
   # Name the workflow "welcome"
-  output_file:
+  failure:
     # Run the welcome/run job in its own container
     jobs:
       - job_to_fail
